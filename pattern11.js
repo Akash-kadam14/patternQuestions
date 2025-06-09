@@ -16,5 +16,5 @@ for(let i = 1; i <= totalRows; i++){
     str+= k
     k+=1       
    }
-   console.log(str)
+   console.log(str);
  }
