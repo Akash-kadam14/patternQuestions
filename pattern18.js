@@ -9,7 +9,7 @@ for(let i = 1; i <= totalRows; i++) {
       if(i <= halfRows) k++;
   if(i > halfRows) k--;
   for(let j = 1; j<= totalColums; j++ ) {
-    if(j <= i && j >= totalColums + 1 - k) {
+    if(j <= k || j >= totalColums + 1 - k) {
       str+='*'
     } else {
       str+= ' ';
