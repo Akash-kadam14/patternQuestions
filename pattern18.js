@@ -1,3 +1,17 @@
+
+/*
+
+*        *
+**      **
+***    ***
+****  ****
+**********
+****  ****
+***    ***
+**      **
+*        *
+*/
+
 let totalRows = 5;
 totalRows = 2 * totalRows - 1;
 const totalColums = totalRows + 1;
