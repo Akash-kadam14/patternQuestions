@@ -15,7 +15,8 @@ for(let i = 1; i <= 5; i++){
     console.log(str)
   }
 
-// without built in
+
+  // without built in
 const totalRows = 5;
 const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
