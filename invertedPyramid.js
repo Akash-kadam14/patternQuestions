@@ -7,7 +7,7 @@
 */
 
 
-const row = 50;
+const row = 5;
 const columns = 2 * row - 1;
 
 for(let i = 1; i<= row; i++) {

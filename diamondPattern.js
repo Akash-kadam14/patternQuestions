@@ -12,7 +12,7 @@
   
 */
 
-const row = 11
+const row = 10
 const column = row - 1;
 const halfRow = Math.floor((row + 1) / 2); 
 console.log(halfRow);
