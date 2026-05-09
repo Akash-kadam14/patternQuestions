@@ -10,7 +10,7 @@
 const totalRows = 5;
 
 for (let i = 1; i <= totalRows; i++) {
-  let row = "";
+  let str = "";
 
   for (let j = 1; j <= totalRows; j++) {
     if (j <= totalRows - i) {
@@ -19,8 +19,8 @@ for (let i = 1; i <= totalRows; i++) {
       // Calculate descending numbers starting from i down to 1
       // For j = totalRows - i + 1 → print i
       // For j = totalRows → print 1
-      row += (totalRows - j + 1) + " ";
+      str += (totalRows - j + 1) + " ";
     }
   }
-  console.log(row.trimEnd());
+  console.log(str.trimEnd());
 }

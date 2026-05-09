@@ -6,8 +6,9 @@
 */
 
 const n = 4;
-let str = '';
+
 for (let i = 0; i < n; i++) {
+    let str = '';
     for (let j = 0; j < n; j++) {
         if(j >= i){
             str+= '*'
@@ -15,7 +16,5 @@ for (let i = 0; i < n; i++) {
             str+= ' '
         }
     }
-    str += "\n";
+    console.log(str);
 }
-
-console.log(str);
